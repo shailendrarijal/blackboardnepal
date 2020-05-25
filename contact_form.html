@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="blackboardnepal.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact|Blackboard Nepal</title>
+</head>
+<body>
+	<!--Header-->
+	<div class="tagline">SUPPORTING THE COMMUNITY</div>
+	<div class="header">
+		<div class ="navigation">
+			<a href="contact_form.html">CONTACT</a>
+			<a href="about.html">ABOUT</a>
+			<a href="naaticclnepali.html">NAATI</a>
+			<a href="index.php">HOME</a>
+		</div>	
+		<a href="index.php"> <div class="logo">
+				blackboard nepal</div> </a>
+	</div>
+	<!--End of Header-->
+	<p class="contact_text">Please use the following form to contact us for complaint, feedback, advertising, marketing or other business enquiries, problem with your user account or any other enquiries. Leave your name and email and we will reply within few business days.</p>
+	<form class="form_contact" action="contact.php" method="POST">
+		<fieldset class="fieldset_contact">
+			<legend>Contact Us</legend>
+				<label for="first_name">First Name: *</label>
+				<input type="text" name="first_name"/><br>
+				<label for="last_name">Last Name: *</label>
+				<input type="text" name="last_name"/><br>
+				<label for="email">Email: *</label>
+				<input type="email" name="email"/><br>
+				<label>Reason to contact: *</label>
+					<select name="contact_reason">
+						<option name="blank" value="">Select a reason</option>
+						<option name="feedback" value="feedback">Feedback</option>
+						<option name="complaint" value="complaint">Complaint</option>
+						<option name="marketing" value="marketing">Marketing/ Business</option>
+						<option name="user_accounts" value="user_accounts">User Accounts</option>
+						<option name="other" value="other">Other</option>
+					</select><br>
+				<label for="subject">Subject: *</label>
+				<input type="text" name="subject"/><br>
+				<label>Message: *</label>
+				<textarea type="text" name="message"></textarea><br>
+		</fieldset>
+		<input type="submit" name="btn_submit" class="button btn_contact">
+	</form>
+
+	<!--Footer-->
+	<div id="footer" class="footer">
+		<div class="column">
+			<p>&copy2020; Blackboard Nepal</p>
+		</div>
+		<div class="column">
+			<a href="privacy_policy.html"><p>Privacy Policy</p></a>
+			<a href="contact_form.html"><p>Contact Us</p></a>
+			<a href="about.html"><p>About Us</p></a>
+		</div>	
+	</div>
+</body>
+
+
+
+</html>
