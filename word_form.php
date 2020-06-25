@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJB6J4S');</script>
+<!-- End Google Tag Manager -->
+
 	<link rel="stylesheet" type="text/css" href="blackboardnepal.css">
+	<meta charset="UTF-8">
+    <meta name="description" content="Submit word for NAATI CCL NEPALI vocabulary collection">
+    <meta name="keywords" content="Vocabulary, NAATI, NAATI CCL, NAATI CCL NEPALI, NEPALI LANGUAGE, NEPALI, NEPALI COMMUNITY, FREE RESOURCES">
 	<title>Word Form|Blackboard Nepal</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width-device-width, initial-scale=1.0">
@@ -10,19 +21,22 @@
  
 
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJB6J4S"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
-</body>
-	<div class="tagline">SUPPORTING THE COMMUNITY</div>
-	<div class="header">
+	<p class="tagline">SUPPORTING THE COMMUNITY</p>
+	<header class="header">
 		<div class ="navigation">
 			<a href="contact_form.html">CONTACT</a>
 			<a href="about.html">ABOUT</a>
 			<a href="naaticclnepali.html">NAATI</a>
 			<a href="index.php">HOME</a>
 		</div>	
-		<a href="index.php"> <div class="logo">
-			blackboard nepal</div> </a>
-	</div>
+		<a href="index.php"> <div class="logo_container">
+				</div> </a>
+	</header>
 
 <button class="button btn_word_form" onclick="location.href='naaticcltest.php'">Back</button>
 	<form action="word_form_connect.php" method="POST" class="forms_words">
@@ -62,16 +76,16 @@
 	</div>
 
 
-	<div id="footer" class="footer">
+	<footer id="footer" class="footer">
 		<div class="column">
-			<p>&copy2020, Blackboard Nepal</p>
+			<p>&copy;2020|Blackboard Nepal|</p>
 		</div>
 		<div class="column">
 			<a href="privacy_policy.html"><p>Privacy Policy</p></a>
 			<a href="contact_form.html"><p>Contact Us</p></a>
 			<a href="about.html"><p>About Us</p></a>
 		</div>	
-	</div>
+	</footer>
 
 </body>
 </html>
