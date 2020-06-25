@@ -2,28 +2,45 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJB6J4S');</script>
+<!-- End Google Tag Manager -->
+
 	<link rel="stylesheet" type="text/css" href="blackboardnepal.css">
+	<meta charset="UTF-8">
+    <meta name="description" content="Vocabulary for NAATI CCL NEPALI test">
+    <meta name="keywords" content="Vocabulary, NAATI, NAATI CCL, NAATI CCL NEPALI, NEPALI LANGUAGE, NEPALI, NEPALI COMMUNITY, FREE RESOURCES">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Naati CCL test|Vocabulary</title>
 </head>
 <body>
-	<div class="tagline">SUPPORTING THE COMMUNITY</div>
-	<div class="header">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJB6J4S"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+	<p class="tagline">SUPPORTING THE COMMUNITY</p>
+	<header class="header">
 		<div class ="navigation">
 			<a href="contact_form.html">CONTACT</a>
 			<a href="about.html">ABOUT</a>
 			<a href="naaticclnepali.html">NAATI</a>
 			<a href="index.php">HOME</a>
 		</div>	
-		<a href="index.php"> <div class="logo">blackboard nepal</div> </a>
-	</div>
+		<a href="index.php"> <div class="logo_container">
+				</div> </a>
+	</header>
 
 	<div class="contribute">
 		<button class="button btn_word_form" onclick="location.href='word_form.php';">Contribute a Word</button><hr>
 	</div>
 
 	<div class="category_links" id="fixed">
-		<h6>Learn Vocabulary</h6>
+		<p>Learn Vocabulary</p>
 		<a href="naaticcltest.php#community">Community</a><a href="naaticcltest.php#consumer_affairs">ConsumerAffairs</a><a href="naaticcltest.php#health">Health</a><br><a href="naaticcltest.php#finance">Finance</a><a href="naaticcltest.php#education">Education</a><a href="naaticcltest.php#employment">Employment</a><br><a href="naaticcltest.php#social_services">SocialServices</a><a href="naaticcltest.php#community">Community</a><a href="naaticcltest.php#legal">Legal</a><br><a href="naaticcltest.php#business">Business</a><a href="naaticcltest.php#immigration">Immigration</a><a href="naaticcltest.php#housing">Housing</a>
 	</div>
 
@@ -37,7 +54,7 @@
 		<?php
 		 $conn = new mysqli('localhost','u685307680_blackboard1','Aashika@604!','u685307680_nepali_naati'); 
 		
-		$sql="SELECT * FROM words WHERE category = 'legal'";
+		$sql="SELECT * FROM words WHERE category = 'legal' ORDER BY word_name_english ASC";
         $result = mysqli_query($conn, $sql) or die("Bad Query: $sql");
 
         echo"<table border='1' class='word_table'>";
@@ -59,7 +76,7 @@
 		<?php
 		 $conn = new mysqli('localhost','u685307680_blackboard1','Aashika@604!','u685307680_nepali_naati');
 		
-		$sql="SELECT * FROM words WHERE category ='education'";
+		$sql="SELECT * FROM words WHERE category ='education' ORDER BY word_name_english ASC";
         $result = mysqli_query($conn, $sql) or die("Bad Query: $sql");
 
         echo"<table border='1' class='word_table'>";
@@ -81,7 +98,7 @@
 		<?php
 		 $conn = new mysqli('localhost','u685307680_blackboard1','Aashika@604!','u685307680_nepali_naati');
 		
-		$sql="SELECT * FROM words WHERE category ='finance'";
+		$sql="SELECT * FROM words WHERE category ='finance' ORDER BY word_name_english ASC";
         $result = mysqli_query($conn, $sql) or die("Bad Query: $sql");
 
         echo"<table border='1' class='word_table'>";
@@ -103,7 +120,7 @@
 		<?php
 	    $conn = new mysqli('localhost','u685307680_blackboard1','Aashika@604!','u685307680_nepali_naati');
 		
-		$sql="SELECT * FROM words WHERE category ='business'";
+		$sql="SELECT * FROM words WHERE category ='business' ORDER BY word_name_english ASC";
         $result = mysqli_query($conn, $sql) or die("Bad Query: $sql");
 
         echo"<table border='1' class='word_table'>";
@@ -125,7 +142,7 @@
 		<?php
 		$conn = new mysqli('localhost','u685307680_blackboard1','Aashika@604!','u685307680_nepali_naati');
 		
-		$sql="SELECT * FROM words WHERE category ='employment'";
+		$sql="SELECT * FROM words WHERE category ='employment' ORDER BY word_name_english ASC";
         $result = mysqli_query($conn, $sql) or die("Bad Query: $sql");
 
         echo"<table border='1' class='word_table'>";
@@ -147,7 +164,7 @@
 		<?php
 		$conn = new mysqli('localhost','u685307680_blackboard1','Aashika@604!','u685307680_nepali_naati');
 		
-		$sql="SELECT * FROM words WHERE category ='health'";
+		$sql="SELECT * FROM words WHERE category ='health' ORDER BY word_name_english ASC";
         $result = mysqli_query($conn, $sql) or die("Bad Query: $sql");
 
         echo"<table border='1' class='word_table'>";
@@ -169,7 +186,7 @@
 		<?php
 		$conn = new mysqli('localhost','u685307680_blackboard1','Aashika@604!','u685307680_nepali_naati');
 		
-		$sql="SELECT * FROM words WHERE category ='housing'";
+		$sql="SELECT * FROM words WHERE category ='housing' ORDER BY word_name_english ASC";
         $result = mysqli_query($conn, $sql) or die("Bad Query: $sql");
 
         echo"<table border='1' class='word_table'>";
@@ -191,7 +208,7 @@
 		<?php
 		$conn = new mysqli('localhost','u685307680_blackboard1','Aashika@604!','u685307680_nepali_naati');
 		
-		$sql="SELECT * FROM words WHERE category ='social_services'";
+		$sql="SELECT * FROM words WHERE category ='social_services' ORDER BY word_name_english ASC";
         $result = mysqli_query($conn, $sql) or die("Bad Query: $sql");
 
         echo"<table border='1' class='word_table'>";
@@ -213,7 +230,7 @@
 		<?php
 		$conn = new mysqli('localhost','u685307680_blackboard1','Aashika@604!','u685307680_nepali_naati');
 		
-		$sql="SELECT * FROM words WHERE category ='consumer_affairs'";
+		$sql="SELECT * FROM words WHERE category ='consumer_affairs' ORDER BY word_name_english ASC";
         $result = mysqli_query($conn, $sql) or die("Bad Query: $sql");
 
         echo"<table border='1' class='word_table'>";
@@ -235,7 +252,7 @@
 		<?php
 		$conn = new mysqli('localhost','u685307680_blackboard1','Aashika@604!','u685307680_nepali_naati');
 		
-		$sql="SELECT * FROM words WHERE category ='community'";
+		$sql="SELECT * FROM words WHERE category ='community' ORDER BY word_name_english ASC";
         $result = mysqli_query($conn, $sql) or die("Bad Query: $sql");
 
         echo"<table border='1' class='word_table'>";
@@ -257,7 +274,7 @@
 		<?php
 		$conn = new mysqli('localhost','u685307680_blackboard1','Aashika@604!','u685307680_nepali_naati'); 
 		
-		$sql="SELECT * FROM words WHERE category ='insurance'";
+		$sql="SELECT * FROM words WHERE category ='insurance' ORDER BY word_name_english ASC";
         $result = mysqli_query($conn, $sql) or die("Bad Query: $sql");
 
         echo"<table border='1' class='word_table'>";
@@ -279,7 +296,7 @@
 		<?php
 		$conn = new mysqli('localhost','u685307680_blackboard1','Aashika@604!','u685307680_nepali_naati'); 
 		
-		$sql="SELECT * FROM words WHERE category ='immigration'";
+		$sql="SELECT * FROM words WHERE category ='immigration' ORDER BY word_name_english ASC";
         $result = mysqli_query($conn, $sql) or die("Bad Query: $sql");
 
         echo"<table border='1' class='word_table'>";
@@ -302,7 +319,7 @@
 		<?php
 		$conn = new mysqli('localhost','u685307680_blackboard1','Aashika@604!','u685307680_nepali_naati');
 		
-		$sql="SELECT * FROM words WHERE category ='other'";
+		$sql="SELECT * FROM words WHERE category ='other' ORDER BY word_name_english ASC";
         $result = mysqli_query($conn, $sql) or die("Bad Query: $sql");
 
         echo"<table border='1' class='word_table'>";
@@ -319,20 +336,20 @@
 	<div class="section_naaticclnepali">	
 		<h1> Learn the Vocabulary </h1><p> To be able to interpret fluently, you will need to increase your vocabulary of LOTE as well as English language. This will enable you to understand various aspects of Australian Society. When you have a good idea of terms like Centrelink, Home Loan, Federal and State police, Australian laws and regulations, you will have better understanding of the community where you want to spend your rest of the life. Here are the links to different sections for vocabulary.</p><hr>
 		<div class="word_links">
-			<a href="naaticcltest.php #community">Community</a><a href="naaticcltest.php #consumer_affairs">ConsumerAffairs</a><a href="naaticcltest.php#health">Health</a><a href="naaticcltest.php#finance">Finance</a><a href="naaticcltest.php#education">Education</a><a href="naaticcltest.php#employment">Employment</a><br><a href="naaticcltest.php#social_services">SocialServices</a><a href="naaticcltest.php#community">Community</a><a href="naaticcltest.php#legal">Legal</a><a href="naaticcltest.php#business">Business</a><a href="naaticcltest.php#immigration">Immigration</a><a href="naaticcltest.php#housing">Housing</a>
+			<a href="naaticcltest.php#community">Community</a><a href="naaticcltest.php#consumer_affairs">ConsumerAffairs</a><a href="naaticcltest.php#health">Health</a><a href="naaticcltest.php#finance">Finance</a><a href="naaticcltest.php#education">Education</a><a href="naaticcltest.php#employment">Employment</a><br><a href="naaticcltest.php#social_services">SocialServices</a><a href="naaticcltest.php#community">Community</a><a href="naaticcltest.php#legal">Legal</a><a href="naaticcltest.php#business">Business</a><a href="naaticcltest.php#immigration">Immigration</a><a href="naaticcltest.php#housing">Housing</a>
 		</div>
 	</div>
 
-    <div id="footer" class="footer">
+    <footer id="footer" class="footer">
 		<div class="column">
-			<p>&copy2020, Blackboard Nepal</p>
+			<p>&copy2020;|Blackboard Nepal|</p>
 		</div>
 		<div class="column">
 			<a href="privacy_policy.html"><p>Privacy Policy</p></a>
 			<a href="contact_form.html"><p>Contact Us</p></a>
 			<a href="about.html"><p>About Us</p></a>
 		</div>	
-	</div>
+	</footer>
 </body>
 
 </html>
