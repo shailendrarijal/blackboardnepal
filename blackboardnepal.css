@@ -9,9 +9,15 @@ button{
 	background-color: #dc143c;
 	color: #efefef;
 	cursor:pointer;
+	font-size: 2vw;
 }
 textarea{
-	width: 60%;
+	width: 70%;
+	height: 100px;
+}
+h1{
+    color:#efefef;
+    font-size: 3vw;
 }
 p{
 	text-align: justify; 
@@ -20,38 +26,63 @@ p{
 a{
 	text-decoration: none;
 }
-.header{
-	width:100%;
-	box-sizing: border-box;
-	margin: 0 0 1% 0;
+
+input[type="text"] {
+	width:70%;
+}
+
+input[type="submit"]{
+	float:right;
+	border:2px solid rgb(0,56,147);
+	background-color: #dc143c;
+	color: #efefef;
+	width:20%;
+	height:10%;
+	font-size:2vw;
+}
+
+input[type="email"]{
+    width:70%;
+}
+label {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+  margin:1%;
 }
 .tagline{
-	width: 100%;
-	font-stretch: extra-expanded;
 	text-align: center;
-	font-size:.5vw;
+	font-size:1.5vw;
+	position:fixed;
+	color:#efefef;
+}
+.header{
+	width:95%;
+	height:80px;
+	margin: 0 0 50px 0;
+	color:#fffef9; 
+	position:fixed;
+
+}
+
+.logo_container{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-image:url(logo_blackboardnepal.png);
+    position:fixed;
+    color:#efefef;
+    font-size:3vw;
 }
 .navigation{	
-	color:#fffef9; 
-	width:75%;
-	height:100%;
-	float: left;
-	box-shadow: 5px 10px #888888;
+	width:85%;
+	float: right;
 	padding:1%;
+	font-size:2vw;
+	position:fixed;
 	box-sizing: border-box;
 	background-color: #003893;
-	font-size:.7vw;
-}
-.logo{
-	padding:0 1% 0 1%;
-	width:25%;
-	height:100%;
-	box-sizing: border-box;
-	float: left;
-	font-size:1vw;
-	border:2px solid #003893;
-	background-color:#dc143c;
-	color: #efefef;
+	box-shadow: 5px 10px #888888;
 	
 }
 .navigation a {
@@ -67,33 +98,26 @@ a{
 	color: red;
 	font-size: 150%;
 }
-.sublink_container{
-	width: 95%;
-	height:500px;
-	max-height:1200px;
-	overflow: auto;
-	margin: 5% 0 5% 0;
-	box-sizing: border-box;
-	border-bottom: 2px solid #967167;
-	font-size:1vw;
-}
+
 .sublink_odd{
 	width:60%; 
 	height: 90%; 
-	float:left;
+	margin: 50px auto;
 	padding: 1%;
-	box-sizing: border-box;
-	background-color: rgb(0,56,147,0.2);
+	background-color: rgb(0,56,147,0.8);
 	overflow:auto;
+	color:#efefef;
+	box-sizing: border-box;
 }
 .sublink_even{ 
 	width:60%; 
 	height: 90%; 
-	float:left;
+	margin: 50px auto;
 	padding: 1%;
-	box-sizing: border-box;
-	background-color: rgb(0,56,147,0.2);
+	background-color: rgb(0,56,147,0.8);
 	overflow:auto;
+    color:#efefef;
+	box-sizing: border-box;
 }
 .button_sublinks{ 
 	border-radius: 10%;
@@ -103,38 +127,21 @@ a{
 	color: #fffef9;
 	cursor: pointer;
 	float:right;
-	width:30%;
-	height: 20%;
+	width:200px;
+	height: 50px;
 	margin: 1%;
-	line-height:50%;
+	line-height:100%;
+	font-size: 2vw;
+	box-sizing:border-box;
 }
-.adboard_odd{
-	width: 35%;
-	float:left;
-	padding:1% 0 1% 0;
-	height: 90%; 
-	background-color: rgb(51,51,51,0.3);  
-	color: white; 
-	text-align: center;
-	box-sizing: border-box;
-}
-.adboard_even{
-	width: 35%;
-	float: left;
-	padding:1% 0 1% 0;
-	height: 90%; 
-	background-color: rgb(51,51,51,0.3);  
-	color: white; 
-	text-align: center;
-	box-sizing: border-box;
-}
+
 .footer{
 	text-align: center; 
 	background-color: rgb(51,51,51,0.8);  
 	color: #fffef9;  
 	padding: 1.5% 5% 1.5% 5%;
 	width: 100%;
-	height: 15%;
+	height: 200px;
 	box-sizing: border-box;
 }
  .column{
@@ -150,7 +157,6 @@ a{
 	text-indent: 3%;
 	padding: 2%;
 	font-family: sans-serif;
-	
 }
 
 /*CSS for naaticclnepali webpage*/
@@ -158,33 +164,34 @@ a{
 #tips_naati{
 	width: 70%;
 	padding: 1%;
-	max-height:1200px;
-	box-sizing:border-box;
-	background-color: rgb(0,56,147,0.2);
-	margin: 100px 0px 100px 0;
+	color:#efefef;
+	background-color: rgb(0,56,147,0.8);
+	margin: 50px auto;
 	text-align: justify;
-	overflow:auto;
+	overflow-y:auto;
+	box-sizing:border-box;
 }
 .section_naaticclnepali{
 	text-indent: 4%;
 	text-align: justify;
 	padding:2%;
 	width: 70%;
-	margin: 100px 0px 100px 0;
+	margin: 50px auto;
+	color:#efefef;
+	background-color: rgb(0,56,147,0.8);
+	overflow-y:auto;
 	box-sizing: border-box;
-	background-color: rgb(0,56,147,0.2);
-	overflow:auto;
 }
 
 .section_naaticclnepali a{
 	text-decoration: none;
-	color:blue;
-
+	color:white;
 }
 
 .word_links{
 	width:100%;
 	border-radius: 20%;
+	margin: auto;
 }
 
 .word_links a{
@@ -193,13 +200,21 @@ a{
 	margin: 0 2% 0 2%;
 }
 
+.vocab_button{
+    width: 80%;
+    margin: auto;
+    font-size: 3vw; 
+    
+}
+
 /*CSS for naaticcltest*/
 .vocab_display{
-	width: 65%;
-	background-color: rgb(0,56,147,0.2);
-	margin: 50px 0 50px 0;
+	width: 70%;
+	background-color: rgb(0,56,147,0.8);
+	margin: 50px auto;
 	padding: 2%;
-	overflow:auto;
+	color:#efefef;
+	overflow-y:auto;
 }
 
 .vocab_display p{
@@ -208,17 +223,17 @@ a{
 
 .category_links{
 	border: 2px solid #333333;
-	box-sizing: border-box;
-
+	color:#efefef;
 	width: 30%;
-	border-radius: 20%;
-	background-color: (0,56,147,0.4);
-	padding: 1% 3% 1% 3%;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: rgb(0,56,147,0.4);
 	float:right;
-	font-size: 100%;
+	font-size: 1.7vw;
 	text-align: justify;
 	position: fixed;
-	right:0%;
+	right: 10px;
+	box-sizing: border-box;
 }
 
 .category_links a{
@@ -226,26 +241,26 @@ a{
 	margin: .2% 1% .2% 1%;
 	border:1px solid blue;
 	background-color: #dc143c;
-	font-size:1vw;
+	font-size:1.7vw;
 }
 
 .word_table{
-	margin: 2% 0 0 5%;
+	margin: 50px auto;
 	padding: .5%;
 	width: 50%;
 	line-height: 150%;
 }
 
 .contribute{
-	margin: 20px 0 20px 0;
+	margin: 20px auto;
 }
 
 /*CSS for word.html*/
 .word_form{
-	margin:1%;
+	margin:50px auto;
 	padding:2%;
 	width:80%;
-	background-color: white;
+	
 }
 
 .form_words{
@@ -254,27 +269,7 @@ a{
 	width:60%;
 	position: relative;
 	left:20%;
-	background-color: rgb(0,56,147, 0.2);
-}
-
-label {
-  display: inline-block;
-  width: 70%;
-  text-align: right;
-  margin:1%;
-}
-
-input[type="text"] {
-	width:70%;
-}
-
-input[type="submit"]{
-	float:right;
-	border:2px solid rgb(0,56,147);
-	background-color: #dc143c;
-	color: #efefef;
-	width:10%;
-	height:3%;
+	background-color: rgb(0,56,147, 0.8);
 }
 
 .btn_word_form{
@@ -284,59 +279,75 @@ input[type="submit"]{
 }
 
 /*Contacts_form*/
-.fieldset_contact{
-	width:95%;
-	height:90%;
-}
-
 .form_contact{
-	width:60%;
+	width:90%;
 	height:500px;
 	max-width: 1000px;
 	overflow: auto;
-	background-color: rgb(0,56,147, 0.2);
-	margin: 5%;
+	background-color: rgb(0,56,147, 0.8);
+	margin: 50px auto;
 	padding: 2%;
 }
 
-textarea{
-	height:20%;
-	width:40%;
+.name_contactform{
+    width: 48%;
 }
-
 .contact_text{
 	padding:2%;
 	margin: 2%;
 	text-align: justify;
 	width: 80%;
+	color:#efefef;
 }
 
 /*About*/
 .about{
-width: 60%;
-text-align: justify;
-background-color: rgb(0,56,147, 0.2);
-padding: 3%;
-margin: 4% 0 4% 0;
-max-width:100%;
+    width: 70%;
+    text-align: justify;
+    background-color: rgb(0,56,147, 0.8);
+    padding: 3%;
+    margin: 50px auto;
+    overflow-y:auto;
+    color:#efefef;
 }
 
-/*Job Board*/
-.form_job_board{
-	width: 60%;
-	background-color: rgb(0,56,147, 0.2);
-	padding: 40px;
-	position: relative;
-	left:18%;
+/*Learn Nepali*/
+.word-display{
+    float:left;
+    width:70%;
 }
 
-
-
-.form_job_board input[type="text"], input[type="number"], input[type="email"]{
-	width: 60%;
+.word-category{
+    float:right;
+    width:25%;
 }
 
 
-.jobposter_contact input[type="text"]{
-	width: 29%;
+@media only screen and (max-width: 768px) {
+    .tagline{
+        font-size:1vw;
+        text-align:center;
+    }
+    .logo_container{
+        width:50px;
+        height:50px;
+        border-radius:50%;
+    }
+    .sublink_odd, .sublink_even, .section_naaticclnepali, #tips_naati, .vocab_display{
+        width: 90%;
+        margin:50px auto;
+    }
+    .category_links{
+        width: 40%;
+        padding:10px;
+        position:fixed;
+        right:10px;
+    }
+    .contribute{
+        width:40%;
+    }
+    .vocab_button{
+        width:80%;
+        margin:20px auto;
+    }
 }
