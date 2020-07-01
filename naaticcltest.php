@@ -37,11 +37,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</nav>	
    	</header>
 
+	<aside id="adspace-left">
+		<div id="adbox-left1" class="adbox"><img src="adspace.png" alt=""></div>
+		<div id="adbox-left2" class="adbox"><img src="adspace.png" alt=""></div>
+		<div id="adbox-left3" class="adbox"><img src="adspace.png" alt=""></div>
+	</aside>
+	<aside id="adspace-right">
 	<div class="category_links" id="fixed">
 		<p>Learn Vocabulary</p>
 		<a href="naaticcltest.php#community">Community</a><a href="naaticcltest.php#consumer_affairs">ConsumerAffairs</a><a href="naaticcltest.php#health">Health</a><br><a href="naaticcltest.php#finance">Finance</a><a href="naaticcltest.php#education">Education</a><a href="naaticcltest.php#employment">Employment</a><br><a href="naaticcltest.php#social_services">SocialServices</a><a href="naaticcltest.php#community">Community</a><a href="naaticcltest.php#legal">Legal</a><br><a href="naaticcltest.php#business">Business</a><a href="naaticcltest.php#immigration">Immigration</a><a href="naaticcltest.php#housing">Housing</a>
 	</div>
-
+	</aside>
+	
+	<section id="main-section">
 	<div class="vocab_display" id="legal">
 		<!--LEGAL -->
 		<h1>
@@ -337,7 +345,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<a href="naaticcltest.php#community">Community</a><a href="naaticcltest.php#consumer_affairs">ConsumerAffairs</a><a href="naaticcltest.php#health">Health</a><a href="naaticcltest.php#finance">Finance</a><a href="naaticcltest.php#education">Education</a><a href="naaticcltest.php#employment">Employment</a><br><a href="naaticcltest.php#social_services">SocialServices</a><a href="naaticcltest.php#community">Community</a><a href="naaticcltest.php#legal">Legal</a><a href="naaticcltest.php#business">Business</a><a href="naaticcltest.php#immigration">Immigration</a><a href="naaticcltest.php#housing">Housing</a>
 		</div>
 	</div>
-
+	</section>
      <footer id="footer">
 		<div class="column1-footer">
 				<p><a href="privacy_policy.html">Privacy Policy</a></p>
