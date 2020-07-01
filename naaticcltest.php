@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
    <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -11,11 +11,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 	<link rel="stylesheet" type="text/css" href="blackboardnepal.css">
+	<link href="https://fonts.googleapis.com/css2?family=Galada&family=Lobster&family=Open+Sans+Condensed:ital,wght@0,700;1,300&family=PT+Sans+Narrow&family=Rubik:wght@500&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
     <meta name="description" content="Vocabulary for NAATI CCL NEPALI test">
     <meta name="keywords" content="Vocabulary, NAATI, NAATI CCL, NAATI CCL NEPALI, NEPALI LANGUAGE, NEPALI, NEPALI COMMUNITY, FREE RESOURCES">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Naati CCL test|Vocabulary</title>
+	<title>Naati CCL test|Vocabulary|Nepali|Supporting the community</title>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -23,21 +24,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-	<p class="tagline">SUPPORTING THE COMMUNITY</p>
-	<header class="header">
-		<div class ="navigation">
-			<a href="contact_form.html">CONTACT</a>
-			<a href="about.html">ABOUT</a>
-			<a href="naaticclnepali.html">NAATI</a>
-			<a href="index.php">HOME</a>
-		</div>	
-		<a href="index.php"> <div class="logo_container">
+	<header id="header-container">
+	<nav id ="nav-bar">
+		<a href="contact_form.html" class="nav-item">CONTACT</a>
+		<a href="about.html" class="nav-item">ABOUT</a>
+		<a href="naaticclnepali.html" class="nav-item">NAATI</a>
+		<a href="learnnepali.php" class="nav-item">LEARN NEPALI</a>
+		<a href="index.php" class="nav-item">HOME</a>
+		<a href="index.php"> <div id="logo-container">
 				</div> </a>
-	</header>
-
-	<div class="contribute">
-		<button class="button btn_word_form" onclick="location.href='word_form.php';">Contribute a Word</button><hr>
-	</div>
+				<div id="tagline">SUPPORTING THE COMMUNITY</div>
+	</nav>	
+   	</header>
 
 	<div class="category_links" id="fixed">
 		<p>Learn Vocabulary</p>
@@ -340,15 +338,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 	</div>
 
-    <footer id="footer" class="footer">
-		<div class="column">
-			<p>&copy2020;|Blackboard Nepal|</p>
-		</div>
-		<div class="column">
-			<a href="privacy_policy.html"><p>Privacy Policy</p></a>
-			<a href="contact_form.html"><p>Contact Us</p></a>
-			<a href="about.html"><p>About Us</p></a>
-		</div>	
+     <footer id="footer">
+		<div class="column1-footer">
+				<p><a href="privacy_policy.html">Privacy Policy</a></p>
+				<p><a href="contact_form.html">Contact Us</a></p>
+				<p><a href="about.html">About Us</a></p>
+			</div>
+			<div class="column2-footer">
+			</div>
+			<div class="column3-footer">
+			</div>
+			<p id="copyright-text">&copy;2020|Blackboard Nepal|</p>
 	</footer>
 </body>
 
