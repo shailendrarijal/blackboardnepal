@@ -37,8 +37,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div id="tagline">SUPPORTING THE COMMUNITY</div>
 	</nav>	
    	</header>
-   	
-	<aside class="word-category">
+   	<aside id="adspace-left">
+		<div id="adbox-left1" class="adbox"><img src="adspace.png" alt=""></div>
+		<div id="adbox-left2" class="adbox"><img src="adspace.png" alt=""></div>
+		<div id="adbox-left3" class="adbox"><img src="adspace.png" alt=""></div>
+	</aside>
+	<aside id="adspace-right">
 		<p>Select Category</p>
 		<li><a href="learnnepali.php#spices">Spices</a></li>
 		<li><a href="learnnepali.php#fruits">Fruits</a></li>
@@ -46,7 +50,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<li><a href="learnnepali.php#days">Days</a></li>
 		<li><a href="learnnepali.php#months">Months</a></li>
 	</aside>
-
+	
+	<section id="main-section">
 	<article class="word-display" id="Spices">
 		<!--Spices -->
 		<h1>
@@ -157,7 +162,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    		 echo"</table>";
 		?>
 	</article>
-	
+	</section>
 
     <footer id="footer">
 		<div class="column1-footer">
